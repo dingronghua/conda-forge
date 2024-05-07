@@ -1,0 +1,22 @@
+MACOSX_DEPLOYMENT_TARGET: '10.9'
+VERBOSE_AT: V=1
+VERBOSE_CM: VERBOSE=1
+c_compiler: gcc
+cpu_optimization_target: nocona
+cran_mirror: https://cran.r-project.org
+cxx_compiler: gxx
+fortran_compiler: gfortran
+ignore_build_only_deps: numpy
+libopenblas: 0.3.2
+lua: '5'
+macos_machine: x86_64-apple-darwin13.4.0
+macos_min_version: '10.9'
+numpy: '1.11'
+perl: 5.26.0
+pin_run_as_build:
+  python: {min_pin: x.x, max_pin: x.x}
+  r-base: {min_pin: x.x.x, max_pin: x.x.x}
+python: '2.7'
+r_base: '3.5'
+rstudio_variant: -desktop
+target_platform: linux-64
